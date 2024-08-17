@@ -1,7 +1,7 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import TopPage from "./pages/TopPage/TopPage";
-import NewThreadsPage from "./pages/PostPage/NewThreadsPage";
-import ThreadPostsPage from "./pages/ThreadPage/ThreadPostsPage";
+import NewThreadsPage from "./pages/NewThreadsPage/NewThreadsPage";
+import ThreadPostsPage from "./pages/ThreadPostsPage/ThreadPostsPage";
 
 //rfc rafce
 
