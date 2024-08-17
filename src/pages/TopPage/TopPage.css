@@ -1,0 +1,29 @@
+.toppage {
+  width: 100vw;
+  background-color: lightgray;
+}
+
+.new-thread {
+  text-align: center;
+  font-size: 30px;
+}
+
+.thread {
+  color: black;
+  background-color: #fff;
+  text-align: center;
+  font-size: 20px;
+  /* width: 200px;
+  height: 30px; */
+  /* width: 10vw;
+  height: 3vh; */
+  margin: 10px 450px;
+  padding: 15px 200px;
+  border: solid 2px;
+  border-radius: 10px;
+}
+
+.thread:hover {
+  background-color: lightslategray;
+  cursor: pointer;
+}
