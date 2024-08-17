@@ -10,7 +10,7 @@ interface thread {
 }
 
 const TopPage: React.FC = () => {
-  const [threads, setThreads] = useState<thread[]>();
+  const [threads, setThreads] = useState<thread[]>([]);
 
   async function getThreadsData(): Promise<void> {
     try {
